@@ -23,8 +23,11 @@ section, header {
   background-color: #fff;
 }
 body {
-
+  margin-bottom: 220px;
+  font-family: 'Open Sans', sans-serif;
 }
+
+
 .footer {
   padding: 20px 0;
 }
@@ -37,8 +40,31 @@ body {
 .show-nav #demo-nav {
   display: block;
 }
+.container {
+  max-width: 960px;
+}
 
-* Sticky footer styles
+.well {
+  background-color: transparent;
+}
+.lead {
+  color: #555;
+}
+
+.btn-lg {
+  padding: 14px 20px;
+  margin-right: 20px;
+}
+
+/* Nav */
+.navbar a{
+  color: #9af7fe;
+}
+.navbar.toggle .icon-bar {
+  background-color: #d8e6f3
+}
+
+/* Sticky footer styles
 -------------------------------------------------- */
 html {
   position: relative;
