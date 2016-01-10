@@ -1,94 +1,144 @@
-
 .features .glyphicon {
-  font-size: 32px;
-  color: red;
+    font-size: 32px;
+    color: red;
 }
 
 .row {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .quote {
-  background-color: #444;
-  color: #e1e1e1;
-}
-.quote blockquote {
-  border: none;
-  margin: 0;
-}
-.quote footer {
-  color: #c1c1c1;
-}
-section, header {
-  background-color: #fff;
-}
-body {
-  margin-bottom: 220px;
-  font-family: 'Open Sans', sans-serif;
+    background-color: #444;
+    color: #e1e1e1;
 }
 
+.quote blockquote {
+    border: none;
+    margin: 0;
+}
+
+.quote footer {
+    color: #c1c1c1;
+}
+
+section,
+header {
+    background-color: #fff;
+}
+
+body {
+    margin-bottom: 220px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 .footer {
-  padding: 20px 0;
+    padding: 20px 0;
 }
 
-
 #demo-nav {
-  display: none;
+    display: none;
 }
 
 .show-nav #demo-nav {
-  display: block;
+    display: block;
 }
+
 .container {
-  max-width: 960px;
+    max-width: 960px;
 }
 
 .well {
-  background-color: transparent;
+    background-color: transparent;
 }
+
 .lead {
-  color: #555;
+    color: #555;
 }
 
 .btn-lg {
-  padding: 14px 20px;
-  margin-right: 20px;
+    padding: 14px 20px;
+    margin-right: 20px;
 }
 
+
 /* Nav */
-.navbar a{
-  color: #9af7fe;
+
+.navbar a {
+    color: #9af7fe;
 }
+
 .navbar.toggle .icon-bar {
-  background-color: #d8e6f3
+    background-color: #d8e6f3
 }
+
 
 /* Sticky footer styles
 -------------------------------------------------- */
+
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
+
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 200px;
+    /* Margin bottom by footer height */
+    margin-bottom: 200px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 200px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 200px;
 }
+
 .footer {
-  color: #efefef;
-  background-color: #333;
+    color: #efefef;
+    background-color: #333;
 }
-.footer a {
-  color: #9af7fe;
+
+.footer a:link {
+    color: #9af7fe;
+    text-decoration: none;
 }
+
+.footer a:visted {
+    color: azure;
+}
+
+.footer a:hover {
+    color: aliceblue;
+}
+
 @media only screen and (max-width: 768px) {
-  body { margin-bottom: 400px; }
-  .footer { height: 400px; }
+    body {
+        margin-bottom: 400px;
+    }
+    .footer {
+        height: 400px;
+    }
+}
+
+.fa {
+    font-size: 50px;
+}
+
+.list-inline {}
+
+.post h1 a {
+    color: #444;
+}
+
+.meta {
+    margin-bottom: 1em;
+    color: #777;
+}
+
+.meta li {
+    border-right: 1px solid #ddd;
+}
+
+.meta li:last-child {
+    border-right: none;
 }
